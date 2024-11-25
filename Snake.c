@@ -128,7 +128,7 @@ int main(int ac, char *av[])
 
     if (font==false) 
     {
-        printf("Error loading font: %s\n", TTF_GetError());
+        printf("Font Error: %s\n", TTF_GetError());
         return EXIT_FAILURE;
     }
 
