@@ -253,7 +253,7 @@ int main(int ac, char *av[])
         } 
         else if (coll == 'b') 
         {
-            score += 20;
+            score +=2;
             snake[len].x = snake[len - 1].x;
             snake[len].y = snake[len - 1].y;
             len += 2;
