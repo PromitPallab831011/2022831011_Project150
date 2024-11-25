@@ -232,7 +232,7 @@ int main(int ac, char *av[])
 
         if (coll == 'f') 
         {
-            score += 10;
+            score ++;
             food_counter++;
             snake[len].x = snake[len - 1].x;
             snake[len].y = snake[len - 1].y;
